@@ -103,8 +103,8 @@ function App() {
 
   return (
     <>
-      {/* <Header />
-      <button className="btn-remove-all-task" onClick={removeAllTask}>Удалить все задачи</button> */}
+      <Header />
+      {/* <button className="btn-remove-all-task" onClick={removeAllTask}>Удалить все задачи</button> */}
       <button className="main" onClick={get_time}>Запросить данные с сайта timeapi.io о времни в Томске</button>
       <div  className="main">
         Данные: 
