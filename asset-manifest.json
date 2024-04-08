@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nikolaevkarod/static/css/main.4fd15c1d.css",
+    "main.js": "/Nikolaevkarod/static/js/main.cc2e14ab.js",
+    "index.html": "/Nikolaevkarod/index.html",
+    "main.4fd15c1d.css.map": "/Nikolaevkarod/static/css/main.4fd15c1d.css.map",
+    "main.cc2e14ab.js.map": "/Nikolaevkarod/static/js/main.cc2e14ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fd15c1d.css",
+    "static/js/main.cc2e14ab.js"
+  ]
+}
