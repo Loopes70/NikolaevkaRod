@@ -105,13 +105,13 @@ function App() {
     <>
       <Header />
       {/* <button className="btn-remove-all-task" onClick={removeAllTask}>Удалить все задачи</button> */}
-      <button className="main" onClick={get_time}>Запросить данные с сайта timeapi.io о времни в Томске</button>
+      {/* <button className="main" onClick={get_time}>Запросить данные с сайта timeapi.io о времни в Томске</button>
       <div  className="main">
         Данные: 
       </div>
       <div  className="main">
       {time} 
-      </div>
+      </div> */}
       {/* <div className="main">
         <div className="new-task-block">
           <textarea value={text} placeholder='Добавьте задачу' onChange={changingValueTextArea}  className="ta"/>

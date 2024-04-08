@@ -2,7 +2,7 @@ export default function Header () {
 
   return (
     <div className="header">
-      Как же заибись что получилось залить на GitHub
+      Как же здорово залить React-проект на GitHub
     </div>
   );
 
