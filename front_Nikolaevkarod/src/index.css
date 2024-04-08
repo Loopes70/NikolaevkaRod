@@ -1,0 +1,151 @@
+html {
+  font-family: Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol {
+  margin: 0;
+}
+
+.header {
+  padding: 30px 20px;
+  border: 1px solid #eee;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.tasks {
+  margin-top: 5px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ta {
+  resize: none;
+  height: 120px;
+  border: 1px solid #ddd;
+  outline: 0;
+  padding: 15px 18px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 12px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-add-task {
+  align-self: flex-end;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 16px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  outline: 0;
+}
+
+.btn-add-task:hover {
+  transform: scale(1.05);
+}
+
+.btn-add-task:active {
+  transform: scale(0.99);
+  border: solid 1px lime;
+  background-image: linear-gradient(144deg,#8f36cf, #4836bd 50%,#01b1bd);
+}
+
+.task-completed {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.btn-task-remove {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #333;
+  border-radius: 3px;
+  transition: .2s all ease-in-out;
+  cursor: pointer;
+}
+
+.btn-task-remove:hover {
+  background: #eee;
+}
+
+.task {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.task-text {
+  flex: 1 1 auto;
+  line-height: 1.5em;
+  color: #333;
+  overflow-x: auto;
+}
+
+.tasks-block-heading {
+  font-weight: 400;
+  font-size: 24px;
+  border-bottom: 2px solid #b60000;
+  padding-bottom: 5px;
+}
+
+.new-task-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.msg {
+  position: fixed;
+  z-index: 10000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(128, 255, 0, 0.79);
+  display: none;
+  user-select: none;
+}
+
+.btn-remove-all-task {
+  align-self: flex-end;
+  align-items: center;
+
+  display: flex;
+
+}
