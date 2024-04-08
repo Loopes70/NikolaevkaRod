@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Nikolaevkarod/static/css/main.4fd15c1d.css",
-    "main.js": "/Nikolaevkarod/static/js/main.fbbf2d59.js",
+    "main.js": "/Nikolaevkarod/static/js/main.0dfdf486.js",
     "index.html": "/Nikolaevkarod/index.html",
     "main.4fd15c1d.css.map": "/Nikolaevkarod/static/css/main.4fd15c1d.css.map",
-    "main.fbbf2d59.js.map": "/Nikolaevkarod/static/js/main.fbbf2d59.js.map"
+    "main.0dfdf486.js.map": "/Nikolaevkarod/static/js/main.0dfdf486.js.map"
   },
   "entrypoints": [
     "static/css/main.4fd15c1d.css",
-    "static/js/main.fbbf2d59.js"
+    "static/js/main.0dfdf486.js"
   ]
 }
