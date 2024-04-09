@@ -2,7 +2,7 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://loopes70.github.io/NikolaevkaRod/",
+  "homepage": "https://loopes70.github.io/Nikolaevkarod/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
