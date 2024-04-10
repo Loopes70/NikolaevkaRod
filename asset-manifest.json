@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Nikolaevkarod/static/css/main.4763232d.css",
+    "main.css": "/Nikolaevkarod/static/css/main.bb3b97db.css",
     "main.js": "/Nikolaevkarod/static/js/main.6c6055db.js",
     "static/media/FamilyTree_30181.png": "/Nikolaevkarod/static/media/FamilyTree_30181.80198eac6bb8dad02de2.png",
     "index.html": "/Nikolaevkarod/index.html",
-    "main.4763232d.css.map": "/Nikolaevkarod/static/css/main.4763232d.css.map",
+    "main.bb3b97db.css.map": "/Nikolaevkarod/static/css/main.bb3b97db.css.map",
     "main.6c6055db.js.map": "/Nikolaevkarod/static/js/main.6c6055db.js.map"
   },
   "entrypoints": [
-    "static/css/main.4763232d.css",
+    "static/css/main.bb3b97db.css",
     "static/js/main.6c6055db.js"
   ]
 }
