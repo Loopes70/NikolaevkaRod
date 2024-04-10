@@ -24,7 +24,13 @@ function App() {
   return (
     <>
       <Header />
-      <h1>{time}</h1>
+      <div className="main">
+        <div className="hi-box">
+          <span>Создадим наше</span>
+          <span>общее древо</span>
+          <span>вместе</span>
+        </div>
+      </div>
     </>
   );
 }

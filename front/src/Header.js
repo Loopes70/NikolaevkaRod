@@ -7,7 +7,10 @@ export default function Header () {
       <div className="header-img">
         <img src={imgHeader} alt="tree" width="75" height="75"/>
       </div>
-      <div className="header-text">Род — группа людей, возводящих своё происхождение к общему предку-родоначальнику по одной родословной линии</div>
+
+      <div className="header-text">
+        Род — группа людей, возводящих своё происхождение к общему предку-родоначальнику по одной родословной линии
+      </div>
     </div>
   );
 
