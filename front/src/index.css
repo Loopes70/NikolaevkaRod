@@ -14,23 +14,45 @@ body, h1, h2, h3, h4, h5, h6, ul, ol {
   margin: 0;
 }
 
+/* #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
 .header-text {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   height: 100px;
   width: 100%;
   font-size: 18px;
   font-weight: 800;
+  /* border: 1px solid blue; */
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  /* border: 1px solid green; */
 }
 
 .header-img {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid yellow; */
 }
 
 .header {
+  /* width: 100%; */
+
   padding: 0 60px;
   border: 0.5px solid #d8d7d7;
   text-align: center;
@@ -39,20 +61,25 @@ body, h1, h2, h3, h4, h5, h6, ul, ol {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .hi-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
-  width: 800px;
-  font-size: 78px;
+  height: 300px;
+  width: 80%;
+  font-size: 32px;
   font-weight: 800;
   border-radius: 50px;
   background-color: rgba(128, 128, 128, 0.616);
   flex-direction: column;
   color: rgb(49, 49, 49);
+  display: flex;
+  gap: 20px;
+
 }
 
 .main {
@@ -63,4 +90,6 @@ body, h1, h2, h3, h4, h5, h6, ul, ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid red; */
 }
+
